@@ -6,7 +6,7 @@ const { object } = require("joi");
 const mongoUrl = "mongodb://127.0.0.1:27017/wanderlust";
 
 main()
-    .then(res => console.log("connted to DB"))
+    .then(res => console.log("connected to DB"))
     .catch(err => console.log("err"));
 
 async function main(){
